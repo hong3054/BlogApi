@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BlogApi</name>
+    </assembly>
+    <members>
+        <member name="M:BlogApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            此方法由运行时调用。使用此方法可将服务添加到容器中
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:BlogApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            此方法由运行时调用。使用此方法配置HTTP请求管道。
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
